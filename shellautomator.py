@@ -3,7 +3,7 @@ import base64
 import sys
 
 
-parser = argparse.ArgumentParser(description="This is a Shell generator from ancx002 :)")
+parser = argparse.ArgumentParser(description="This is a Shell generator from ancx :)")
 
 parser.add_argument("-t","--type", type=str, help="which shell", dest="type")
 parser.add_argument("-l", "--list", action="store_true", help="list the available shells", dest="list")
