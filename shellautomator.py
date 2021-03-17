@@ -6,7 +6,7 @@ import sys
 parser = argparse.ArgumentParser(description="This is a Shell generator from ancx002 :)")
 
 parser.add_argument("-t","--type", type=str, help="which shell", dest="type")
-parser.add_argument("-l", "--list", type=int, help="list the available shells", dest="list")
+parser.add_argument("-l", "--list", action="store_true", help="list the available shells", dest="list")
 parser.add_argument("-i","--ip", type=str, help="your ip")
 parser.add_argument("-p","--port", type=int, help="your port")
 parser.add_argument("-a", "--all", action="store_true",help="show all shells")
